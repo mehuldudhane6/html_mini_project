@@ -1,0 +1,145 @@
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  
+}
+body
+{
+	background:url(images/h8.jpg);
+	background-size:cover;
+	font-family:san-sarif;
+	background-repeat:repeat-y;
+	text-decoration:none;
+}
+.menubar
+{
+	background: #7b0a3987;
+    text-align: right;
+    width: 100%;
+}
+.logo-container{
+	display: flex;
+    position: absolute;
+    left: 16px;
+    top: 6px;
+}
+.logo
+{
+	width: 52px;
+    top: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+.logo-name{
+	
+	font-size: 19px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+        color: #ecd10ef5;
+    font-family: serif;
+}
+.menubar ul .list-container
+{
+	
+	list-style:none;
+	display:inline-flex;
+}
+.menubar ul .list-container li
+{
+	padding:15px;
+	margin:0;
+	
+}
+.menubar ul .list-container li a
+{
+	text-decoration:none;
+	color: white;
+	
+}
+
+.active,.menubar ul .list-container li:hover
+{
+	background: #E91E63;
+	border-radius:3px;
+}
+.menubar .fa
+{
+	margin:10px;
+}
+.sub-menu-1
+{
+	display:none;
+}
+.menubar ul .list-container li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background: #7b0a3987;
+	margin-top:15px;
+	margin-left:-15px;
+}
+
+.menubar ul .list-container li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:10px;
+}
+.menubar ul .list-container li:hover .sub-menu-1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted white;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+.menubar ul .list-container li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom:none;
+}
+.sub-menu-2
+{
+	display:none;
+}
+.menubar ul .list-container li:hover .sub-menu-2
+{
+	display:block;
+	position:absolute;
+	background: #7b0a3987;
+	text-align:left;
+	margin-top:15px;
+	margin-left:-15px;
+}
+.menubar ul .list-container li:hover .sub-menu-2 ul
+{
+	display:block;
+	margin:10px;
+}
+.menubar ul .list-container li:hover .sub-menu-2 ul li
+{
+	padding:10px;
+	margin:10px;
+	border-bottom: 1px dotted white;
+	text-align:left;
+	border-radius:0;
+	background:transparent;
+}
+.menubar ul .list-container li:hover .sub-menu-2 ul li:last-child
+{
+	border-bottom:none;
+}
+ul{
+	display: flex;
+	justify-content:flex-end;
+
+}
+.dropdownlist
+{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" type="text/css" href="headmenubar.css">
+<link rel="stylesheet" type="text/css" href="register.css">
+<link rel="stylesheet" type="text/css" href="footer.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+function msg1()
+{
+   window.alert("You Registered Successfully!! Plz Login");
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="menubar">
+	<ul class="menubar-list">
+		<div class="logo-container">
+			<img class="logo" src="images/logo1.jpg">
+			<span class="logo-name"> BattleField League </span>
+		</div>
+		<div class="list-container">
+			<li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>HOME</a></li>
+			<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>MATCHES</a></li>
+			<li><a href="aboutus.html"><i class="fa fa-home" aria-hidden="true"></i>ABOUT</a>
+				<div class="sub-menu-2">
+				   <ul>
+				   <li><a href="#">Investor</a></li>
+				   <li><a href="#"> Our culture</a></li>
+				   <li><a href="#">Board of director</a></li>
+				   </ul>
+				</div>
+			</li>
+			<li><a href="imagegallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i>GALLERY</a></li>
+			<li><a href="register.html"><i class="fa fa-registered" aria-hidden="true"></i>REGISTER</a></li>
+			<li><a href="assign login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>LOGIN</a></li>
+			<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>CONTACT</a>
+				<div class="sub-menu-1">
+					<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Gmail</a></li>
+					<li><a href="#">Instagram</a></li>
+					</ul>
+				</div>
+			</li>
+		</div>
+	</ul>
+</div>
+
+<div class="form">
+	<form>
+		<div class="register">
+			<div class="table-container">
+				<table>
+					<tr>
+						<th colspan="2">Registration Form</th>
+					</tr>
+					
+					<tr>
+						<td><label>First Name:</label></td>
+						<td><input type="text" size=30 placeholder=" Enter First_Name" name="name" required="required" autofocus="on"></td>
+					</tr>
+					
+					<tr>
+						<td><label>Last Name:</label></td>
+						<td><input type="text" name="lastname" placeholder=" Enter Last_name" required="required" size=30></td>
+					</tr>
+					
+					<tr>
+						<td><label>Age</label></td>
+						<td><input type="text" name="age" placeholder="Age" required="required" size=30></td>
+					</tr>
+					
+					<tr>
+						<td><label>Phone No.</label></td>
+						<td><input type="telephone"  required="required" name="phone" size=30></td>
+					</tr>
+					
+					<tr>
+						<td><label> Email: </label></td>
+						<td><input type="email" size=30 placeholder="Enter Your Email" required="required"></td>
+					</tr>
+					
+					<tr>
+						<td><label>Gender:</label></td>
+						<td class="gender-div">
+							<div class="male_div">
+								<input type="radio" name="gender">
+								<label class="">Male</label>
+			
+							</div>
+							<div class="female_div">
+									<input type="radio" name="gender">
+									<label>Female</label>
+			
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+
+						<td class="reg_btn" colspan="2">
+							<div>
+								<input class="register_btn" type="submit" size=15 value="Register" onclick=msg1()>
+								<a href="assign login.html"><input class="login_btn" type="submit" size=15 value="Login"></a>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+			
+	</form>
+</div>
+
+	<footer class="main-footer">
+		<div class="footer-container">
+			<div class="footer">
+				<h3>ABOUT US</h3>
+				<p>Welcome to Battlefield gaming website.Our team is ready to entertain you 24 hours.Here you can have best of best games available to play on this website.login to take advantage of free gaming website and play your favourite games online.</p>
+			</div>
+		
+			<div class="address">
+				<h3>Team Members</h3>
+				<p><i class="fa fa-address-book fa-common" aria-hidden="true"></i>Mehul Dudhane, Satara Maharashtra</p>
+				<p><i class="fa fa-address-book fa-common" aria-hidden="true"></i>Madhuri patil, Mumbai Maharashtra</p>
+				<p><i class="fa fa-address-book fa-common" aria-hidden="true"></i>Laxman Patil, Satara Maharashtra</p>
+				<p><i class="fa fa-mobile fa-common" aria-hidden="true"></i> +91 7709750838</p>
+				<p><i class="fa fa-envelope-o fa-common" aria-hidden="true"></i>mehuldudhane6@gmail.com</p>
+			</div>
+			
+			<div class="logo-container1">
+				<img class="logo1" src="images/logo1.jpg">
+				<div class="logo-name1"> BattleField League </div>
+			</div>
+		</div>
+		  
+			<div class="copyright">
+				 <p>Created By Technoholic Team|<i class="fa fa-copyright" aria-hidden="true"></i>2020 All rights reserved</p>
+			</div>
+	</footer>
+ 
+</body>
+</html>

@@ -1,0 +1,44 @@
+.footer-container
+      {
+	     display:flex;
+		 padding:10px;
+	  }
+	  .footer
+	  {
+	     width:40%;
+	  }
+	  
+	  .address
+	  {
+	     width:40%;
+		     padding-left: 25px;
+	  }
+	  .fa-common
+	  {
+	     margin-right:10px;
+	  }
+	  .copyright
+	  {
+	     text-align:center;
+	  }
+	  
+	   .logo-container1{
+	       width:20%;
+		   text-align:center;
+	   }
+	  .logo1
+	  {
+	      height:70px;
+	  }
+	  .main-footer
+	  {
+	     background-color:#58535370;
+    padding: 10px;
+    color: white;
+	  }
+	  .footer > *{
+		  margin:10px;
+	  }
+	  .address > *{
+		  margin:10px;
+	  }

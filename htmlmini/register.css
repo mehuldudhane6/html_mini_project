@@ -1,0 +1,73 @@
+body
+{
+  background:url(images/hd11.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family:sans-sarif;
+  width:100%;
+}
+
+.register
+{
+	text-align: center;
+    width: 100%;
+}
+.table-container{
+background-color:transparent;
+text-align: center;
+}
+table{
+    
+	margin: 10% auto;
+    margin-top: 47px;
+	     background-color: #190b06db;
+}
+th
+{
+    color: #0fcc0f;
+    text-align: center;
+    padding: 12px;
+	font-size:23px;
+}
+ table,tr, td
+{
+font-size:16px;
+text-align:center;
+padding: 15px;
+}
+td
+{
+color:red;
+text-align:left;
+}
+.reg_btn{
+	text-align:center;
+}
+.register_btn:hover, .login_btn:hover{
+	background-color:yellow;
+}
+.register input[type="text"], input[type="password"],input[type="telephone"], input[type="email"]
+{
+     color:white;
+       border: none;
+    padding:3px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+.gender-div
+{
+display:flex;
+    text-align: left;
+}
+.male_div
+{
+    width: 50%;
+}
+.female_div
+{
+    width: 50%;
+}
+label
+{
+  color: #dde91e;
+}

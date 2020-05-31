@@ -1,0 +1,69 @@
+*
+{
+    padding: 0;
+    margin: 0%;
+    
+}
+body
+{
+    
+    background-size:cover;
+    background-image: url("image1/bacground(1).jpg");
+    background-repeat: repeat;
+    font-family: sans-serif;
+}
+
+
+.cats
+{
+    font-family:Comic Sans MS;
+    color:#FFD700;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    
+}
+
+.cats1
+{
+   font-family:Comic Sans MS;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    font-size: 150%;
+    color: #FFF;
+	margin-bottom: 20px;
+        
+}
+
+
+/*.Footer
+{
+    background-color:dimgray;
+    width: 100%;
+    height: 245px;
+    text-align: center;
+    align-content: center;
+}
+
+
+.Footer11
+{
+    width: 20%;
+    float:left;
+    margin-left: 10%;
+    color: aliceblue;
+}*/
+.marque-trend
+{
+	text-align:center;
+}
+.homepage-video-main-container
+{
+	width: 70%;
+    margin: 30px auto;
+}
+.home-vid-container
+{
+	width: 100%;
+}

@@ -1,0 +1,27 @@
+ body
+         {
+         background:url(images/hd18.jpg);
+         background-size:cover;
+         font-family:san-sarif;
+         background-repeat:repeat-y;
+         text-decoration:none;
+         }
+         .reset-container
+         {
+         display: flex;
+         justify-content: center;
+         height: 96vh;
+         align-items:center;
+         }
+         table, td{
+         background: #607d8beb;
+         border-collapse:separate; 
+         border-spacing:  1rem;
+         }
+         td{
+         color: #FFEB3B;
+         }
+         .reset:hover, .submit:hover
+         {
+         background-color:red;
+         }

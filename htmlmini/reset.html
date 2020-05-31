@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+   <head>
+      <title>reset password</title>
+       <link rel="stylesheet" type="text/css" href="reset.css">
+	   
+	   <script>
+			function msg1()
+				{
+					window.alert("You New password is Generated!! Plz Login");
+				}
+		</script>
+   </head>
+   <body>
+		
+      <div class="reset-container">
+         <form>
+            <div class="password">
+               <table class="table">
+                  <tr>
+                     <td colspan=2>
+                        <h2 style="text-align:center">Reset Password</h2>
+                     </td>
+                  </tr>
+                  <tr class="user">
+                     <td>UserName:</td>
+                     <td><input type="text" placeholder=" Enter Username" size=30 required="required" autofocus="on"></td>
+                  </tr>
+                  <tr class="new">
+                     <td>New Password:</td>
+                     <td><input type="password" placeholder=" Enter New Password" size=30 required="required"></td>
+                  </tr>
+                  <tr class="confirm">
+                     <td>Confirm Pasword</td>
+                     <td><input type="password" placeholder=" Confirm Password" size=30 required="required"></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td><input class="reset" type="reset" value="Reset" onclick=msg1() >
+                        <input class="submit" type="submit" value="Submit">
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>

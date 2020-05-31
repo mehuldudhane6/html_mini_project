@@ -1,0 +1,41 @@
+body
+{
+  
+  background:url(images/hd16.jpg);
+  background-size:cover;
+  font-family:san-serif;
+}
+.logo
+{
+    background: #11445d;
+    text-align: center;
+    width: 391px;
+    height: 454px;
+    Color: #fff;
+    top: 8%;
+    left: 32%;
+    right: 25%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 23px 40px;
+}
+.logo p
+{
+   font-size: 17px;
+   text-align: left;
+   margin-left: 56px;
+   font-weight:bold;
+   color: #FFEB3B;
+}
+.image
+{
+   width: 156px;
+}
+a
+{
+       color: #130107;
+}
+.reset-button:hover, .submit-button:hover
+{
+   background:red;
+}
